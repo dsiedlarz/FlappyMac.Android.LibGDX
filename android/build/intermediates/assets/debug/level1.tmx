@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" nextobjectid="181">
+ <tileset firstgid="1" name="tileset_gutter" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="924" columns="33">
+  <image source="tileset_gutter.png" width="594" height="504"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value=""/>
+    <property name="smashable" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value=""/>
+    <property name="smashable" value=""/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="blocked" value=""/>
+    <property name="coinblock" value=""/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="265">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="266">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="267">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="268">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="297">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="298">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="299">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="330">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="331">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="363">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background Color" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7Ay/4bqrir2JZBeUlVVVVVVVVVVVVVV1ccDxULniQ==
+  </data>
+ </layer>
+ <layer name="Graphic Layer" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztmktOw0AMhifdAW0RsOp2lkCLBBSk3oyDAGsuweNs3eCotWJZ86wnSZMa6RNRMuP57fGfaaVWxphqAPxNFEUJIf17hxgfwKdAA8aQxpGsLV136Dmo/h2LqtvcJWwncv9+Q4wf4Dehrr7aYoxQnLb6IaZ/DDmo/nQ2Vb7+vijhXxortDcle0PaD4fGG2oOqj8d9G/pHmqDEv5N8fYYqUsXwjd2IahL7lyfHny22ON6Pjas2REbtzmxz8+n6l9lOFij/lX/KkPEmvH6t0b9q4wVa8r5d2oa+s6LMiT/nkFtz6u02DljU6nLJf2+6Js78cSl33l91ynxc9ZErHFfx7Dm8Llc26H1Rg2c2Dyff2cwdw5cCvsJ+1ISI5Wu/Ft/jv9KyO0Wnt0RT15njD1WQjn0iXV40DpqyfXjuJS5bWt3EdPv8m995i4JkjMY+7Lv/c3pu9R3Tiw36skr+P8I3HjGx/x7DL6J5VByD3KwAQ/Se1y/9XjFdY/ql55JdD7X4NPkq7/Lv/P92bsyzXXuHlzAuCkw69i/a1jrhfBaNeerq+/WZBzeS33n0HFrtuaWPMe6PwX6H8e69Id849JfonY8XkoOoT1oKwfe77gmv8/1h7zC73P9vD9y9eN8lwafJqr/mb2DfP59IP59i+wB5x7GLIFVAf/WFlTcv7UuFUfrrHVoi38m6N8o
+  </data>
+ </layer>
+ <objectgroup name="Ground">
+  <object id="5" x="0" y="192" width="1104" height="18"/>
+  <object id="11" x="1136" y="192" width="256" height="16"/>
+  <object id="25" x="1440" y="192" width="1024" height="16"/>
+  <object id="26" x="2208" y="128" width="16" height="64"/>
+  <object id="27" x="2192" y="144" width="16" height="48"/>
+  <object id="28" x="2176" y="160" width="16" height="32"/>
+  <object id="29" x="2160" y="176" width="16" height="16"/>
+  <object id="30" x="2256" y="128" width="16" height="64"/>
+  <object id="31" x="2272" y="144" width="16" height="48"/>
+  <object id="32" x="2288" y="160" width="16" height="32"/>
+  <object id="33" x="2304" y="176" width="16" height="16"/>
+  <object id="34" x="2384" y="176" width="16" height="16"/>
+  <object id="35" x="2400" y="160" width="16" height="32"/>
+  <object id="36" x="2416" y="144" width="16" height="48"/>
+  <object id="37" x="2432" y="128" width="32" height="64"/>
+  <object id="38" x="2496" y="128" width="16" height="64"/>
+  <object id="39" x="2512" y="144" width="16" height="48"/>
+  <object id="40" x="2528" y="160" width="16" height="32"/>
+  <object id="41" x="2544" y="176" width="16" height="16"/>
+  <object id="42" x="2496" y="192" width="1344" height="16"/>
+  <object id="45" x="3024" y="64" width="32" height="128"/>
+  <object id="46" x="3024" y="80" height="96"/>
+  <object id="47" x="3008" y="80" width="16" height="112"/>
+  <object id="48" x="2992" y="96" width="16" height="96"/>
+  <object id="49" x="2976" y="112" width="16" height="80"/>
+  <object id="50" x="2960" y="128" width="16" height="64"/>
+  <object id="51" x="2944" y="144" width="16" height="48"/>
+  <object id="52" x="2928" y="160" width="16" height="32"/>
+  <object id="53" x="2912" y="176" width="16" height="16"/>
+  <object id="54" x="3184" y="176" width="16" height="16"/>
+  <object id="168" x="135" y="3" width="17"/>
+  <object id="177" x="55" y="194" height="1"/>
+  <object id="180" x="0" y="1" width="586" height="15"/>
+ </objectgroup>
+</map>
